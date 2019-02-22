@@ -1,0 +1,6 @@
+[06-Feb-2019 17:57:09 UTC] PHP Warning:  sprintf(): Too few arguments in /app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[06-Feb-2019 17:57:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-includes/script-loader.php:2150) in /app/public/wp-includes/pluggable.php on line 1223
+[06-Feb-2019 17:57:25 UTC] PHP Warning:  sprintf(): Too few arguments in /app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[06-Feb-2019 18:01:42 UTC] PHP Warning:  unlink(): http does not allow unlinking in /app/public/wp-content/plugins/ocean-extra/includes/panel/classes/importers/class-settings-importer.php on line 28
+[06-Feb-2019 22:07:19 UTC] Błąd Server shutdown in progress bazy danych WordPressa podczas wykonywania zapytania SELECT option_value FROM wp_options WHERE option_name = 'oe-icons' LIMIT 1 wysłanego przez require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, OE_Icon_Selector->init, do_action('oe_icon_picker_init'), WP_Hook->do_action, WP_Hook->apply_filters, OE_Menu_Icons::_init, OE_Menu_Icons_Settings::init, get_option
+[06-Feb-2019 22:07:20 UTC] PHP Warning:  Error while sending QUERY packet. PID=1265 in /app/public/wp-includes/wp-db.php on line 1924
